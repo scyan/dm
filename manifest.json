@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "dm",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+
+            "matches": ["https://www.damai.cn/"],
+            "js": ["https://g.alicdn.com/mtb/??lib-mtop/2.4.12/mtop.js", "content-script.js"],
+            "run_at": "document_start"
+        }
+  ]
+}
