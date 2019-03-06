@@ -27,7 +27,7 @@ function newOne(){
 }
 
 function oldOne(){
-  if(location.href.indexOf('buy.damai.cn')<0){
+  if(location.href.indexOf('piao.damai.cn')<0){
     return;
   }
   fetch('https://www.damai.cn/GotoShopping.aspx?_action=Immediately&proId=12679322&optype=1&companyId=1580&num=1&n=0',{redirect:'follow'}).then((res)=>{
